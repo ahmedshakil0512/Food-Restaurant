@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Webside</title>
+    <!-- fontawsome linked  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap linked  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style linbked  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- home section starts here  -->
+    <header class="homes" > 
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-navbar">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                  <div class="logo">
+                    <h2 class="logo-title"><i class="fas fa-utensils"></i> Resto.</h2>
+                  </div>
+                </a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#foodnav" aria-controls="foodnav" aria-expanded="false" aria-label="Toggle navigation" style="color:#27ae60; ">
+                <span><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="foodnav">
+                    <ul class="navbar-nav m-auto text-center">
+                        <li class="nav-item"><a href="#home" class="styled-list first-list">Home</a></li>
+                        <li class="nav-item"><a href="#dishes" class="styled-list">Dishes</a></li>
+                        <li class="nav-item"><a href="#about" class="styled-list">About</a></li>
+                        <li class="nav-item"><a href="#menu" class="styled-list">Menu</a></li>
+                        <li class="nav-item"><a href="#review" class="styled-list">Review</a></li>
+                        <li class="nav-item"><a href="#order" class="styled-list">Order</a></li>
+                   </ul>
+                <div class="icons text-center ">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- home section ends here  -->
+<!-- carousel-section starts here  -->
+<div class="container py-5">
+      <section class="carousel-section py-5" id="home">
+           <div class="carousel-container">
+                <div id="slider" class="carousel  slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active h-100 first-carousel">
+                            <div class="row align-items-center  ">
+                                <div class="col-lg-6 col-md-7 col-11 d-block m-auto text-center text-md-start  py-4" >
+                                    <div class="home1-contents ">
+                                        <h6 class="lead">Our Special Dish</h6>
+                                        <h1>Spicy Noodles</h1>
+                                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur blanditiis sunt.</p>
+                                       <div class="py-2">
+                                        <button class="pt-1">Order Now</button>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-5 col-11 d-block m-auto  order-first order-md-last ">
+                                    <div>
+                                        <img src="img/home-img-1.png" class="img-fluid d-block w-100 p-4 " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100 secound-carousel">
+                            <div class="row align-items-center ">
+                                <div class="col-lg-6 col-md-7 col-11 d-block m-auto text-center text-md-start  py-4" >
+                                    <div class="home1-contents ">
+                                        <h6 class="lead">Our Special Dish</h6>
+                                        <h1>Fried Chicken</h1>
+                                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur blanditiis sunt.</p>
+                                       <div class="py-2">
+                                        <button class="pt-1">Order Now</button>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-5 col-11 d-block m-auto  order-first order-md-last ">
+                                    <div>
+                                        <img src="img/home-img-2.png" class="img-fluid d-block w-100 p-4" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item  h-100 third-carousel">
+                            <div class="row align-items-center ">
+                                <div class="col-lg-6 col-md-7 col-11 d-block m-auto text-center text-md-start  py-4" >
+                                    <div class="home1-contents ">
+                                        <h6 class="lead">Our Special Dish</h6>
+                                        <h1>Hot Pizza</h1>
+                                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur blanditiis sunt.</p>
+                                       <div class="py-2">
+                                        <button class="pt-1">Order Now</button>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-5 col-11 d-block m-auto  order-first order-md-last ">
+                                    <div>
+                                        <img src="img/home-img-3.png" class="img-fluid d-block w-100 p-4" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-indicators ">
+                        <button class="active"  data-bs-target="#slider" data-bs-slide-to="0" style="background:#27ae60; width: 10px; height: 10px; border-radius: 100%; border: 1px solid white;" ></button>
+                        <button  data-bs-target="#slider"
+                        data-bs-slide-to="1" style="background:#27ae60; width: 10px; height: 10px; border-radius: 100%; border: 1px solid white;"></button>
+                        <button    data-bs-target="#slider" data-bs-slide-to="2"
+                        style="background:#27ae60; width: 10px; height: 10px; border-radius: 100%; border: 1px solid white;"></button>
+                    </div>
+                </div>
+           </div>
+     </section>
+</div>
+<!-- carousel-section ends here  -->
+<!-- dishes-section  starts here  -->
+<div class="container">
+    <section class="dishes-section" id="dishes">
+        <div class="dishes-container">
+            <div class="dishes-content">
+                <div class="dishes-title pb-4">
+                    <h5>Our Dishes</h5>
+                    <h2>PUPOLAR DISHES</h2>
+                </div>
+                <div class="row">
+                 <div class="col-lg-4 col-md-6 col-10 d-block m-auto">
+                        <div class="single-dishe text-center">
+                            <div class="card  h-100 ">
+                                <img src="img/dish-1.png" class="card-img-top img-fluid mt-2" alt="">
+                                <div class="card-body">
+                                    <h3 class="p-0 m-0">Tasty Food</h3>
+                                    <div class="starts">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="dishe-footer d-flex text-center pb-4">
+                                    <button class="py-1">Order Now</button><h3 class="text-center  mx-2">$15.99</h3>
+                                  </div>
+                                <div class="footer-icon d-flex w-100 align-items-center justify-content-between  d-block m-auto">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 <div class="col-lg-4 col-md-6 col-10 d-block m-auto">
+                        <div class="single-dishe text-center">
+                            <div class="card  card-2 h-100">
+                                <img src="img/dish-2.png" class="card-img-top img-fluid mt-2 " alt="">
+                                <div class="card-body">
+                                    <h3 class="p-0 m-0">Tasty Food</h3>
+                                    <div class="starts">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                  <div class="footer-icon d-flex align-items-center justify-content-between  d-block m-auto">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                 </div>
+                               </div>
+                               <div class="dishe-footer d-flex text-center pb-4">
+                                <button class="py-1">Order Now</button><h3 class="text-center  mx-2">$15.99</h3>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+               <div class="col-lg-4 col-md-6 col-10 d-block m-auto">
+                        <div class="single-dishe text-center">
+                            <div class="card  h-100">
+                                <img src="img/dish-3.png" class="card-img-top img-fluid mt-2" alt="">
+                                <div class="card-body">
+                                    <h3 class="p-0 m-0">Tasty Food</h3>
+                                    <div class="starts">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                  <div class="footer-icon d-flex align-items-center justify-content-between  d-block m-auto">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                  </div>
+                                 </div>
+                                 <div class="dishe-footer d-flex text-center pb-4">
+                                    <button class="py-1">Order Now</button><h3 class="text-center  mx-2">$15.99</h3>
+                                  </div>
+                              </div>
+                           </div>
+                     </div> 
+                   </div>
+                <div class="row py-4">
+                 <div class="col-lg-4 col-md-6 col-10 d-block m-auto">
+                        <div class="single-dishe text-center">
+                            <div class="card  h-100">
+                                <img src="img/dish-4.png" class="card-img-top img-fluid mt-2" alt="">
+                                <div class="card-body">
+                                    <h3 class="p-0 m-0">Tasty Food</h3>
+                                    <div class="starts">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="dishe-footer d-flex text-center pb-4">
+                                    <button class="py-1">Order Now</button><h3 class="text-center  mx-2">$15.99</h3>
+                                  </div>
+                                <div class="footer-icon d-flex w-100 align-items-center justify-content-between  d-block m-auto">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 <div class="col-lg-4 col-md-6 col-10 d-block m-auto">
+                        <div class="single-dishe text-center">
+                            <div class="card card-5 card-2 h-100">
+                                <img src="img/dish-5.png" class="card-img-top img-fluid p-5 " alt="">
+                                <div class="card-body">
+                                    <h3 class="p-0 m-0">Tasty Food</h3>
+                                    <div class="starts">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                  <div class="footer-icon d-flex align-items-center justify-content-between  d-block m-auto">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                 </div>
+                               </div>
+                               <div class="dishe-footer d-flex text-center pb-4">
+                                <button class="py-1">Order Now</button><h3 class="text-center  mx-2">$15.99</h3>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+               <div class="col-lg-4 col-md-6 col-10 d-block m-auto">
+                        <div class="single-dishe  text-center">
+                            <div class="card card-6 h-100">
+                                <img src="img/dish-6.png" class="card-img-top img-fluid mt-2" alt="">
+                                <div class="card-body">
+                                    <h3 class="p-0 m-0">Tasty Food</h3>
+                                    <div class="starts">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                  <div class="footer-icon d-flex align-items-center justify-content-between  d-block m-auto">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    </div>
+                                  </div>
+                                  <div class="dishe-footer d-flex text-center pb-4">
+                                    <button class="py-1">Order Now</button><h3 class="text-center  mx-2">$15.99</h3>
+                                  </div>
+                               </div>
+                           </div>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- dishes-section  ends here  -->
+<!-- about-section starts here  -->
+<div class="container">
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-contents">
+                <div class="dishes-title pb-4">
+                    <h5>About Us</h5>
+                    <h2>WHY CHOOSE US ?</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                       <div class="about-img">
+                           <img src="img/about-img.png" class="img-fluid p-md-3" alt="">
+                       </div>
+                    </div>
+                    <div class="col-lg-6 px-4">
+                        <div class="about-content">
+                            <h2 class="display-6">Best Food In The Country</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis, eos dicta necessitatibus natus cum modi, exercitationem error eius odit, ut aliquam. Obcaecati quae, nesciunt ipsum eum adipisci ullam. Incidunt qui .</p>
+                        </div>
+                        <div class="row px-2">
+                            <div class="col-lg-4  col-md-4 col-6 g-2">
+                                <div class="box">
+                                    <h5><i class="fas fa-shipping-fast"></i> <span class="box-title">Free Delivery</span></h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-4 col-6  g-2">
+                                <div class="box">
+                                    <h5><i class="fas fa-dollar-sign"></i> <span class="box-title">Free Delivery</span></h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12  g-2">
+                                <div class="box">
+                                    <h5><i class="fas fa-headset"></i> <span class="box-title">Free Delivery</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="py-4 m-0">
+                            <button class="buttons m-0"> Learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- about-section ends  here  -->
+<!-- menu-section starts here  -->
+<div class="container py-4">
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="menu-contents">
+                <div class="dishes-title pb-4">
+                    <h5>Our Dishes</h5>
+                    <h2>POPULAR DISHES</h2>
+                </div>
+                <div class="row py-2">
+                    <div class="col-lg-4 col-md-6 col-11 d-block m-auto">
+                          <div class="single-menu h-100">
+                            <div class="about-menu">
+                              <img src="img/menu-1.jpg"  class="img-fluid p-3 about-imgs" alt="">
+                                </div>
+                             <div class="starts p-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <h2>Delicious Food</h2>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa .</p>
+                               <h2> <button class="buttons">Add To Cart</button><span class="button-title"> $16.99</span></h2>
+                              <div class="heart-l-icon">
+                                 <i class="fas fa-heart"></i>
+                              </div>
+                            </div> 
+                          </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-11 d-block m-auto">
+                        <div class="single-menu h-100">
+                            <div class="about-menu">
+                              <img src="img/menu-2.jpg"  class="img-fluid p-3 about-imgs-2" alt="">
+                                </div>
+                             <div class="starts p-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <h2>Delicious Food</h2>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa .</p>
+                               <h2> <button class="buttons">Add To Cart</button><span class="button-title"> $16.99</span></h2>
+                              <div class="heart-l-icon">
+                                 <i class="fas fa-heart"></i>
+                              </div>
+                            </div> 
+                          </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-11 d-block m-auto m-md-0">
+                        <div class="single-menu ">
+                            <div class="about-menu">
+                              <img src="img/menu-3.jpg"  class="img-fluid p-3 about-imgs" alt="">
+                                </div>
+                             <div class="starts p-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <h2>Delicious Food</h2>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa .</p>
+                               <h2> <button class="buttons">Add To Cart</button><span class="button-title"> $16.99</span></h2>
+                              <div class="heart-l-icon">
+                                 <i class="fas fa-heart"></i>
+                              </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-11 d-block m-auto m-md-0">
+                        <div class="single-menu ">
+                            <div class="about-menu">
+                              <img src="img/menu-4.jpg"  class="img-fluid p-3 about-imgs" alt="">
+                                </div>
+                             <div class="starts p-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <h2>Delicious Food</h2>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa .</p>
+                               <h2> <button class="buttons">Add To Cart</button><span class="button-title"> $16.99</span></h2>
+                              <div class="heart-l-icon">
+                                 <i class="fas fa-heart"></i>
+                              </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-11 d-block m-auto m-md-0">
+                        <div class="single-menu ">
+                            <div class="about-menu">
+                              <img src="img/menu-5.jpg"  class="img-fluid p-3 about-imgs" alt="">
+                                </div>
+                             <div class="starts p-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <h2>Delicious Food</h2>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa .</p>
+                               <h2> <button class="buttons">Add To Cart</button><span class="button-title"> $16.99</span></h2>
+                              <div class="heart-l-icon">
+                                 <i class="fas fa-heart"></i>
+                              </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-11 d-block m-auto m-md-0">
+                        <div class="single-menu ">
+                            <div class="about-menu">
+                              <img src="img/menu-6.jpg"  class="img-fluid p-3 about-imgs" alt="">
+                                </div>
+                             <div class="starts p-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <h2>Delicious Food</h2>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa .</p>
+                               <h2> <button class="buttons">Add To Cart</button><span class="button-title"> $16.99</span></h2>
+                              <div class="heart-l-icon">
+                                 <i class="fas fa-heart"></i>
+                              </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-11 d-block m-auto m-md-0">
+                        <div class="single-menu ">
+                            <div class="about-menu">
+                              <img src="img/menu-7.jpg"  class="img-fluid p-3 about-imgs" alt="">
+                                </div>
+                             <div class="starts p-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <h2>Delicious Food</h2>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa .</p>
+                               <h2> <button class="buttons">Add To Cart</button><span class="button-title"> $16.99</span></h2>
+                              <div class="heart-l-icon">
+                                 <i class="fas fa-heart"></i>
+                              </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-11 d-block m-auto m-md-0">
+                        <div class="single-menu ">
+                            <div class="about-menu">
+                              <img src="img/menu-8.jpg"  class="img-fluid p-3 about-imgs" alt="">
+                                </div>
+                             <div class="starts p-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <h2>Delicious Food</h2>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa .</p>
+                               <h2> <button class="buttons">Add To Cart</button><span class="button-title"> $16.99</span></h2>
+                              <div class="heart-l-icon">
+                                 <i class="fas fa-heart"></i>
+                              </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-11 d-block m-auto m-md-0">
+                        <div class="single-menu ">
+                            <div class="about-menu">
+                              <img src="img/menu-9.jpg"  class="img-fluid p-3 about-imgs" alt="">
+                                </div>
+                             <div class="starts p-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <h2>Delicious Food</h2>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa .</p>
+                               <h2> <button class="buttons">Add To Cart</button><span class="button-title"> $16.99</span></h2>
+                              <div class="heart-l-icon">
+                                 <i class="fas fa-heart"></i>
+                              </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+           </div>
+     </section>
+</div>
+<!-- menu-section ends here  -->
+<!-- review-section starts here  -->
+<div class="container">
+    <section class="review-section py-4" id="review">
+        <div class="review-container">
+            <div class="review-contents">
+                <div class="dishes-title pb-4">
+                    <h5>Customar Review</h5>
+                    <h2>WHAT THEY SAY</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-11 d-block m-auto">
+                        <div class="castomar-single h-100  h-md-100">
+                            <div class="w-100 d-flex align-items-center py-4">
+                                <img src="img/pic-1.png" class="img-fluid w-25 rounded-circle" alt="">
+                                <div class="text-start d-block px-3">
+                                    <h5 class="lead fw-bold john">John Deo</h5>
+                                    <div class="start p-0 m-0">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>  
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem, facilis i neque magni </p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-11 d-block m-auto">
+                        <div class="castomar-single h-100 h-md-100" >
+                            <div class="w-100 d-flex align-items-center py-4">
+                                <img src="img/pic-2.png" class="img-fluid w-25 rounded-circle" alt="">
+                                <div class="text-start d-block px-3">
+                                    <h5 class="lead fw-bold john">John Deo</h5>
+                                    <div class="start p-0 m-0">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>  
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem, facilis iste tem magni</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-11 d-block m-auto">
+                        <div class="castomar-single h-100  h-md-100">
+                            <div class="w-100 d-flex align-items-center py-4">
+                                <img src="img/pic-3.png" class="img-fluid w-25 rounded-circle" alt="">
+                                <div class="text-start d-block px-3">
+                                    <h5 class="lead fw-bold john">John Deo</h5>
+                                    <div class="start p-0 m-0">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>  
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem, facilis iste tempore magni </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-11 d-block m-auto">
+                        <div class="castomar-single h-100  h-md-100">
+                            <div class="w-100 d-flex align-items-center py-4">
+                                <img src="img/pic-4.png" class="img-fluid w-25 rounded-circle" alt="">
+                                <div class="text-start d-block px-3">
+                                    <h5 class="lead fw-bold john">John Deo</h5>
+                                    <div class="start p-0 m-0">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>  
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis totam, voluptatibus voluptates cumque iure </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- review-section ends here  -->
+<!-- order-section starts here  -->
+<div class="container">
+    <section class="order-section py-5" id="order">
+        <div class="order-container">
+            <div class="order-contants">
+                <div class="dishes-title pb-4">
+                    <h5>Order Now</h5>
+                    <h2>FREE AND FAST</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 col-md-12 col-11 d-block m-auto main-container">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 ">
+                             <form  class="py-3" action="">
+                                <div class="pt-4 ">
+                                    <h5 class="text-muted">Your Name</h5>
+                                    <input type="text" class="form-control name" placeholder="Enter Your Name:" required>
+                                </div>
+                                <div class="pt-3">
+                                    <h5 class="text-muted">Your Order</h5>
+                                    <input type="text" class="form-control name" placeholder="Enter Food Name:" required>
+                                </div>
+                                <div class="pt-3 ">
+                                    <h5 class="text-muted">How Much</h5>
+                                    <input type="number" class="form-control name" placeholder="Enter How Many Order:" required>
+                                </div>
+                                <div class="pt-3  ">
+                                    <h5 class="text-muted">Your Address</h5>
+                                  <textarea name="Address" placeholder="Enter Your Address:" id="" class="form-control massage" cols="30" rows="8" style="resize: none;"></textarea>
+                                </div>
+                            </form>
+        
+                            </div>
+                            <div class="col-lg-6 col-md-6 ">
+                               <form  class="py-3 pb-5" action="">
+                                <div class="pt-4">
+                                    <h5 class="text-muted">Your Number</h5>
+                                    <input type="number" class="form-control name" placeholder="Enter Your Number:" required>
+                                </div>
+                                <div class="pt-3">
+                                    <h5 class="text-muted">Addition Food</h5>
+                                    <input type="text" class="form-control name" placeholder="Extra With Food:" required>
+                                </div>
+                                <div class="pt-3">
+                                    <h5 class="text-muted">Date And Time</h5>
+                                    <input type="date" class="form-control name" required >
+                                </div>
+                                <div class="pt-3 mb-5 ">
+                                    <h5 class="text-muted">Your Massage</h5>
+                                  <textarea name="massage" placeholder="Enter Your Massage:" id="" class="form-control massage" cols="30" rows="8" style="resize: none;"></textarea>
+                                </div>
+                               </form>
+                            </div>
+                        </div>
+                        <div  class="pb-4">
+                           <button class="buttons">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- order-section ends here  -->
+<!-- footer-section starts here  -->
+<div class="container">
+    <section class="footer-section">
+        <div class="footer-container">
+            <div class="footer-contents">
+                <div class="row px-1">
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="footer-box">
+                            <h3>Locations</h3>
+                            <ul class="box-item list-unstyled">
+                                <li>Bangladesh</li>
+                                <li>India</li>
+                                <li>Japan</li>
+                                <li>Russia</li>
+                                <li>USA</li>
+                                <li>France</li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="footer-box">
+                            <h3>Quick Links</h3>
+                            <ul class="box-item-2 list-unstyled">
+                               <li><a href="#home">Home</a></li>
+                               <li><a href="#dishes">Dishes</a></li>
+                               <li><a href="#about">About</a></li>
+                               <li><a href="#menu">Menu</a></li>
+                               <li><a href="#review">Review</a></li>
+                               <li><a href="#order">Order</a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="footer-box">
+                            <h3>Contact Info</h3>
+                            <ul class="box-item list-unstyled">
+                                <li><i class="fas fa-phone"></i> +0881729107200</li>
+                                <li><i class="fab fa-instagram"></i>  Md.Shakil Ahmed</li>
+                                <li><i class="fas fa-envelope"></i> ahmedshakil@gmail.com</li>
+                                <li><i class="fas fa-home"></i> Dhaka,Bangladesh</li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="footer-box">
+                            <h3>Follow Us</h3>
+                           <div class="foter-social-icons">
+                               <i class="fab fa-facebook-f"></i>
+                               <i class="fab fa-twitter"></i>
+                               <i class="fab fa-instagram"></i>
+                               <i class="fab fa-linkedin"></i>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="creadit py-5">
+                    <p class="text-muted text-center">CopyRight &copy 2021 All Reserved By <span class="Creadit-title fw-bold"> Freelancer Shakil</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- footer-section ends here  -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
